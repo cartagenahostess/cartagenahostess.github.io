@@ -1,8 +1,11 @@
 import { MailIcon, PhoneIcon } from '@heroicons/react/solid';
+import { useTranslation } from 'react-i18next';
 
 import Logo from '../../logo.png';
 
 export default function Footer () {
+    const { t } = useTranslation();
+
     return (
         <footer className="bg-emerald-600" aria-labelledby="footer-heading" id="contact">
             <h2 id="footer-heading" className="sr-only">
@@ -17,11 +20,11 @@ export default function Footer () {
                             alt="Cartagena Hostess"
                         />
                         <p className="text-white text-base">
-                            Making recreational and medical tourism a breeze.
+                            { t('footer.desc') }
                         </p>
                     </div>
                     <div className="space-y-8 md:col-span-1">
-                        <h3 className="text-sm font-semibold text-white tracking-wider uppercase">Contact Us</h3>
+                        <h3 className="text-sm font-semibold text-white tracking-wider uppercase">{ t('contactUs') }</h3>
                         <ul className="mt-12 space-y-4">
                             <li className="text-white hover:text-blue-gray-900">
                                 <a href="tel:+57 302 303 1284">
@@ -46,7 +49,7 @@ export default function Footer () {
                 </div>
             </div>
             <div className="mt-12 py-3 border-t border-blue-gray-50">
-                <p className="text-base font-medium text-white px-6 md:text-center">Made with 👓 by <a href="https://twitter.com/vanpacheco08" className="text-blue-gray-100 hover:text-blue-gray-900" rel="noreferrer" target="_blank">@vanpacheco</a></p>
+                <p className="text-base font-medium text-white px-6 md:text-center">{ t('footer.madeWith') } 👓 { t('footer.by') } <a href="https://twitter.com/vanpacheco08" className="text-blue-gray-100 hover:text-blue-gray-900" rel="noreferrer" target="_blank">@vanpacheco</a></p>
             </div>
         </footer>
     );

@@ -1,18 +1,21 @@
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import { useTranslation } from 'react-i18next';
 
 import LanguageSelect from '../LanguageSelect';
 import Logo from '../../logo.png';
 
-const navigation = [
-  { name: 'Services', href: '#services' },
-  { name: 'About', href: '#about' },
-  // { name: 'Testimonials', href: '#testimonials' },
-  { name: 'Contact', href: '#contact' },
-];
-
 export default function Navbar () {
+  const { t } = useTranslation();
+
+  const navigation = [
+    { name: t('navigation.services'), href: '#services' },
+    { name: t('navigation.about'), href: '#about' },
+    // { name: 'Testimonials', href: '#testimonials' },
+    { name: t('navigation.contact'), href: '#contact' },
+  ];
+
   return (
     <Popover>
       <div className="max-w-7xl mx-auto px-4 sm:px-6">

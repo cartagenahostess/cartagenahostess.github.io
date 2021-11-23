@@ -1,15 +1,20 @@
-const people = [
-  {
-    name: 'Lisneys Rodríguez',
-    role: 'Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    bio:
-      'Meet your hostess. After moving back to Colombia from the United States, I began forming trust relationships with the people who work with me today. Being surrounded by tourists, I have noticed their frequent distrust, and rightly so; most of the time they don\'t have any previous contact with locals before their trip. My goal is to make you feel at home.'
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 export default function About () {
+  const { t } = useTranslation();
+
+
+  const people = [
+    {
+      name: 'Lisneys Rodríguez',
+      role: t('about.lisneyRole'),
+      imageUrl:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      bio:
+        t('about.lisneyDesc')
+    }
+  ];
+
   return (
     <div className="bg-white" id="about">
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
@@ -17,7 +22,7 @@ export default function About () {
           <div className="space-y-5 sm:space-y-4">
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">About Us</h2>
             <p className="text-xl text-gray-500">
-              Cartagena Hostess is a project that aims to fill the needs of recreational and medical tourists who want to feel safe and relaxed knowing their trustworthy hostess is there to guide them. We have been helping visitors enjoy a pleasant experience for a couple of years and now we are looking forward to welcoming many more with outstretched arms.
+              { t('about.us') }
             </p>
           </div>
           <div className="lg:col-span-2">

@@ -1,11 +1,16 @@
+import { useTranslation } from 'react-i18next';
+
 function classNames (...classes) {
     return classes.filter(Boolean).join(' ');
 }
 
 export default function Tabs ({ onChange, value }) {
+    const { t } = useTranslation();
     const tabs = [
-        { name: 'Recreational', current: value === 'Recreational' },
-        { name: 'Medical', current: value === 'Medical' },
+        {
+            id: 'Recreational', name: t('features.tourismTab'), current: value === 'Recreational'
+        },
+        { id: 'Medical', name: t('features.medicalTourismTab'), current: value === 'Medical' },
     ];
 
     return (
@@ -18,7 +23,7 @@ export default function Tabs ({ onChange, value }) {
                         'px-3 py-2 font-medium text-sm rounded-md'
                     ) }
                     aria-current={ tab.current ? 'page' : undefined }
-                    onClick={ () => onChange(tab.name) }
+                    onClick={ () => onChange(tab.id) }
                 >
                     { tab.name }
                 </button>
