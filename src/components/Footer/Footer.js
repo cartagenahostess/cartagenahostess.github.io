@@ -1,18 +1,20 @@
 import { MailIcon, PhoneIcon } from '@heroicons/react/solid';
 
+import Logo from '../../logo.png';
+
 export default function Footer () {
     return (
         <footer className="bg-emerald-600" aria-labelledby="footer-heading" id="contact">
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
-            <div className="max-w-7xl mx-auto pt-1 pb-12 px-4 sm:px-6">
+            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6">
                 <div className="md:grid md:grid-cols-3 md:gap-28">
                     <div className="space-y-4 md:col-span-1">
                         <img
-                            className="h-10"
-                            src=""
-                            alt="Logo here"
+                            className="h-10 rounded-lg"
+                            src={ Logo }
+                            alt="Cartagena Hostess"
                         />
                         <p className="text-white text-base">
                             Making recreational and medical tourism a breeze.

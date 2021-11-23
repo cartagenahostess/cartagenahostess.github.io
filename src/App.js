@@ -4,7 +4,7 @@ import Features from './components/Features';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import Testimonials from './components/Testimonials';
+// import Testimonials from './components/Testimonials';
 
 function App () {
   return (
@@ -22,11 +22,11 @@ function App () {
       <Features />
       <About />
       <CTA />
-      <Testimonials />
+      {/* <Testimonials />
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#059669" fillOpacity="1" d="M0,288L40,272C80,256,160,224,240,186.7C320,149,400,107,480,122.7C560,139,640,213,720,240C800,267,880,245,960,213.3C1040,181,1120,139,1200,138.7C1280,139,1360,181,1400,202.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
         </path>
-      </svg>
+      </svg> */}
       <Footer />
     </div>
   );

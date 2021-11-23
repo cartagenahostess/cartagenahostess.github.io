@@ -1,12 +1,14 @@
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+
 import LanguageSelect from '../LanguageSelect';
+import Logo from '../../logo.png';
 
 const navigation = [
   { name: 'Services', href: '#services' },
   { name: 'About', href: '#about' },
-  { name: 'Testimonials', href: '#testimonials' },
+  // { name: 'Testimonials', href: '#testimonials' },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -20,8 +22,9 @@ export default function Navbar () {
               <a href="/">
                 <span className="sr-only">Workflow</span>
                 <img
-                  className="h-8 w-auto sm:h-10"
-                  alt="Logo here"
+                  className="h-12 w-auto sm:h-10"
+                  alt="Cartagena Hostess"
+                  src={ Logo }
                 />
               </a>
               <div className="-mr-2 flex items-center md:hidden">
@@ -62,8 +65,9 @@ export default function Navbar () {
             <div className="px-5 pt-4 flex items-center justify-between">
               <div>
                 <img
-                  className="h-8 w-auto"
-                  alt="Logo here"
+                  className="h-8 w-auto rounded-lg"
+                  alt="Cartagena Hostess"
+                  src={ Logo }
                 />
               </div>
               <div className="-mr-2">
