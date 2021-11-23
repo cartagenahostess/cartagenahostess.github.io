@@ -1,10 +1,11 @@
 import { CheckIcon, SelectorIcon, GlobeAltIcon } from '@heroicons/react/solid';
 import { Fragment, useState } from 'react';
 import { Listbox, Transition } from '@headlessui/react';
+import { useTranslation } from 'react-i18next';
 
 const languages = [
-    { id: 1, name: 'English' },
-    { id: 2, name: 'Español' },
+    { id: 1, name: 'English', abbrv: 'en' },
+    { id: 2, name: 'Español', abbrv: 'es' },
 ];
 
 function classNames (...classes) {
@@ -12,10 +13,16 @@ function classNames (...classes) {
 }
 
 export default function LanguageSelect ({ className }) {
-    const [selected, setSelected] = useState(languages[0]);
+    const { i18n } = useTranslation();
+    const [selected, setSelected] = useState(languages.find(l => l.abbrv === i18n.language));
+
+    const changeLanguage = (lng) => {
+        setSelected(lng);
+        i18n.changeLanguage(lng.abbrv);
+    };
 
     return (
-        <Listbox value={ selected } onChange={ setSelected }>
+        <Listbox value={ selected } onChange={ changeLanguage }>
             { ({ open }) => (
                 <>
                     <Listbox.Label className="sr-only block text-sm font-medium text-gray-700">Language</Listbox.Label>
@@ -35,24 +42,24 @@ export default function LanguageSelect ({ className }) {
                             leaveTo="opacity-0"
                         >
                             <Listbox.Options className="absolute z-10 mt-1 w-full bg-white shadow-lg max-h-60 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm">
-                                { languages.map((person) => (
+                                { languages.map((lang) => (
                                     <Listbox.Option
-                                        key={ person.id }
+                                        key={ lang.id }
                                         className={ ({ active }) =>
                                             classNames(
                                                 active ? 'text-white bg-emerald-600' : 'text-gray-900',
                                                 'cursor-default select-none relative py-2 pl-3 pr-9'
                                             )
                                         }
-                                        value={ person }
+                                        value={ lang }
                                     >
-                                        { ({ selected, active }) => (
+                                        { ({ selected: selectedOption, active }) => (
                                             <>
-                                                <span className={ classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate') }>
-                                                    { person.name }
+                                                <span className={ classNames(selectedOption ? 'font-semibold' : 'font-normal', 'block truncate') }>
+                                                    { lang.name }
                                                 </span>
 
-                                                { selected ? (
+                                                { selectedOption ? (
                                                     <span
                                                         className={ classNames(
                                                             active ? 'text-white' : 'text-emerald-600',
