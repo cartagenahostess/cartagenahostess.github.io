@@ -8,9 +8,13 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 // import Testimonials from './components/Testimonials';
 
+function Fallback () {
+  return <div className="h-screen w-screen bg-emerald-50" />;
+}
+
 function App () {
   return (
-    <Suspense fallback="Loading...">
+    <Suspense fallback={ Fallback }>
       <div className="App">
         <div className="relative overflow-hidden">
           <div className="relative pt-6 bg-emerald-50">
