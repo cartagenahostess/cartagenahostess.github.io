@@ -28,7 +28,7 @@ export default function LanguageSelect ({ className }) {
                     <Listbox.Label className="sr-only block text-sm font-medium text-gray-700">Language</Listbox.Label>
                     <div className="mt-1 relative">
                         <Listbox.Button className={ `bg-white relative w-full border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-emerald-500 focus:border-emerald-500 sm:text-sm ${className}` }>
-                            <span className="block truncate"><GlobeAltIcon className="inline h-5 w-5 text-emerald-500 mr-2 relative bottom-0.5" aria-hidden="true" />{ selected.name }</span>
+                            <span className="block truncate"><GlobeAltIcon className="inline h-5 w-5 text-emerald-500 mr-2 relative bottom-0.5" aria-hidden="true" />{ selected?.name }</span>
                             <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                 <SelectorIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
                             </span>
@@ -56,7 +56,7 @@ export default function LanguageSelect ({ className }) {
                                         { ({ selected: selectedOption, active }) => (
                                             <>
                                                 <span className={ classNames(selectedOption ? 'font-semibold' : 'font-normal', 'block truncate') }>
-                                                    { lang.name }
+                                                    { lang?.name }
                                                 </span>
 
                                                 { selectedOption ? (
