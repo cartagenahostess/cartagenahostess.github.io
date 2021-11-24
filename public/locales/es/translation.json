@@ -49,12 +49,14 @@
     "action": "Deje todo listo hoy mismo."
   },
   "about": {
+    "title": "Nosotros",
     "us": "Cartagena Hostess es un proyecto que tiene como objetivo satisfacer las necesidades de los turistas que viajan por diversión o por razones médicas y que desean sentirse seguros y relajados sabiendo que su anfitriona de confianza está allí para guiarlos. Hemos ayudado a varios visitantes a disfrutar de una experiencia agradable por un par de años y ahora esperamos darle la bienvenida a muchos más.",
     "lisneyDesc": "Conoce a tu anfitriona. Después de regresar de los Estados Unidos a Colombia, comencé a formar relaciones de confianza con las personas que trabajan conmigo en la actualidad. Al estar rodeada de turistas, he notado su frecuente desconfianza, y con razón; la mayoría de las veces no tienen contacto previo con ningún cartagenero antes de su viaje. Mi objetivo es hacerlo sentir como en casa.",
-    "lisneyRole": "Fundadora / CEO"
+    "lisneyRole": "Fundadora / CEO",
+    "guillermoRole": "Conductor de Confianza"
   },
   "navigation": {
-    "about": "Sobre Nosotros",
+    "about": "Nosotros",
     "services": "Servicios",
     "contact": "Contacto",
     "testimonials": "Testimonials"

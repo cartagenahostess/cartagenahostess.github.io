@@ -1,17 +1,34 @@
 import { useTranslation } from 'react-i18next';
 
+import LisneyPic from './lisney.jpeg';
+import EverlisPic from './everlis.jpeg';
+import GuillermoPic from './guillermo.jpeg';
+
 export default function About () {
   const { t } = useTranslation();
 
 
   const people = [
     {
-      name: 'Lisneys Rodríguez',
+      name: 'Lisney Rodríguez',
       role: t('about.lisneyRole'),
-      imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      image: LisneyPic,
       bio:
         t('about.lisneyDesc')
+    },
+    {
+      name: 'Guillermo Sarmiento',
+      role: t('about.guillermoRole'),
+      image: GuillermoPic,
+      /* bio:
+        t('about.lisneyDesc') */
+    },
+    {
+      name: 'Everlis González',
+      // role: t('about.lisneyRole'),
+      image: EverlisPic,
+      /* bio:
+        t('about.lisneyDesc') */
     }
   ];
 
@@ -20,7 +37,7 @@ export default function About () {
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">About Us</h2>
+            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">{ t('about.title') }</h2>
             <p className="text-xl text-gray-500">
               { t('about.us') }
             </p>
@@ -33,7 +50,7 @@ export default function About () {
                 <li key={ person.name } className="sm:py-8">
                   <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                     <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-                      <img className="object-cover shadow-lg rounded-lg" src={ person.imageUrl } alt="" />
+                      <img className="object-cover object-top shadow-lg rounded-lg" src={ person.image } alt="" />
                     </div>
                     <div className="sm:col-span-2">
                       <div className="space-y-4">
