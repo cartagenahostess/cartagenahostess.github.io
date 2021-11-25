@@ -10,25 +10,25 @@ export default function About () {
 
   const people = [
     {
-      name: 'Lisney Rodríguez',
+      name: 'Lisney Mena Rodríguez',
       role: t('about.lisneyRole'),
       image: LisneyPic,
       bio:
         t('about.lisneyDesc')
     },
     {
-      name: 'Guillermo Sarmiento',
+      name: 'Guillermo Sarmiento Aponte',
       role: t('about.guillermoRole'),
       image: GuillermoPic,
-      /* bio:
-        t('about.lisneyDesc') */
+      bio:
+        t('about.guillermoDesc')
     },
     {
-      name: 'Everlis González',
-      // role: t('about.lisneyRole'),
+      name: 'Everlis González Mena',
+      role: t('about.everlisRole'),
       image: EverlisPic,
-      /* bio:
-        t('about.lisneyDesc') */
+      bio:
+        t('about.everlisDesc')
     }
   ];
 

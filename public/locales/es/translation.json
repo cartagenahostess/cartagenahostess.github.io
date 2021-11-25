@@ -51,9 +51,12 @@
   "about": {
     "title": "Nosotros",
     "us": "Cartagena Hostess es un proyecto que tiene como objetivo satisfacer las necesidades de los turistas que viajan por diversión o por razones médicas y que desean sentirse seguros y relajados sabiendo que su anfitriona de confianza está allí para guiarlos. Hemos ayudado a varios visitantes a disfrutar de una experiencia agradable por un par de años y ahora esperamos darle la bienvenida a muchos más.",
-    "lisneyDesc": "Conoce a tu anfitriona. Después de regresar de los Estados Unidos a Colombia, comencé a formar relaciones de confianza con las personas que trabajan conmigo en la actualidad. Al estar rodeada de turistas, he notado su frecuente desconfianza, y con razón; la mayoría de las veces no tienen contacto previo con ningún cartagenero antes de su viaje. Mi objetivo es hacerlo sentir como en casa.",
+    "lisneyDesc": "Conoce a tu anfitriona. Nací y crecí en Cartagena, Colombia. Desde pequeña he sido muy alegre y he tenido el deseo de ayudar a otros. Creo que ese deseo nació al ver a mi madre, quien tuvo que ser padre y madre, llegar a casa muy cansada luego de un día largo de trabajo. Así que poco a poco empecé a sentirme inclinada hacia la rama de la salud, la cual me permitiría brindarle ayuda a muchos. Unos años después me mudé a los Estados Unidos donde realicé mis estudios superiores y me gradué como enfermera. Por fin pude hacer lo que más me gustaba. Sin embargo, la razón por la cual nace Cartagena Hostess es porque tuve que realizarme un procedimiento en el cual me dejaron una cicatriz, y los costos para corregirla eran muy elevados en USA, y además, no conocía nadie que pudiese asesorarme. Hoy que me encuentro en Colombia, un país que brinda hermosos lugares de descanso y que a la vez es la casa de muchos profesionales estéticos que ofrecen tratamientos de la mejor calidad, me siento motivada a ayudar a aquellos que quieran salir de la rutina o hacerse algún cambio físico. ¡Bienvenidos!",
     "lisneyRole": "Fundadora / CEO",
-    "guillermoRole": "Conductor de Confianza"
+    "guillermoDesc": "Soy su conductor de confianza. He estado llevando a Lisney a todas partes desde que regresó a Colombia y ahora deseo poder ayudarle a disfrutar Cartagena al máximo.",
+    "guillermoRole": "Conductor de Confianza",
+    "everlisDesc": "Le daré todos los detalles que necesita para tomar una decisión informada sobre su viaje. Me encantaría resolver sus preguntas y darle sugerencias sobre lo que puede hacer de su viaje una mejor experiencia. ¡Estaré esperando su llamada!",
+    "everlisRole": "Asistente / Servicio al Cliente"
   },
   "navigation": {
     "about": "Nosotros",

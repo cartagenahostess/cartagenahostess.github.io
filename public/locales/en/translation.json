@@ -51,9 +51,12 @@
   "about": {
     "title": "About Us",
     "us": "Cartagena Hostess is a project that aims to fill the needs of recreational and medical tourists who want to feel safe and relaxed knowing their trustworthy hostess is there to guide them. We have been helping visitors enjoy a pleasant experience for a couple of years and now we are looking forward to welcoming many more with outstretched arms.",
-    "lisneyDesc": "Meet your hostess. After returning from the United States to Colombia, I began forming trust relationships with the people who work with me today. Being surrounded by tourists, I have noticed their frequent distrust, and rightly so; most of the time they don't have any previous contact with locals before their trip. My goal is to make you feel at home.",
+    "lisneyDesc": "Meet your hostess. I was born and raised in Cartagena, Colombia. Since I was little, I've been joyful and I've had the desire to help others. I think that desire was born when I saw my mother, who had to be both a father and mother, come home very tired after a long day at work. So, little by little I began to feel inclined towards healthcare, which would allow me to help many. A few years later, I moved to the United States where I received higher education and graduated as a nurse. I was finally able to do what I liked the most. However, the reason why I decided to start Cartagena Hostess is because I had to undergo a procedure in which I was left with a scar, and the cost to correct it was very high in the USA, and also, I did not know anyone who could advise me. Now that I am in Colombia, a country that offers beautiful places to rest and that at the same time is the home of many esthetic professionals who offer the best quality treatments, I feel motivated to help those who want to get out of the routine or undergo some cosmetic change. Welcome!",
     "lisneyRole": "Founder / CEO",
-    "guillermoRole": "Trusted Driver"
+    "guillermoDesc": "I am your trusted driver. I've been driving Lisney everywhere since she got back to Colombia and now I'm looking forward to helping you enjoy Cartagena to the maximum.",
+    "guillermoRole": "Trusted Driver",
+    "everlisDesc": "I'll be giving you all the details you need to make an informed decision about your trip. I'd love to solve your questions and make suggestions about what can make your trip a better experience. I'm looking forward to receiving your call!",
+    "everlisRole": "Assistant / Customer Service Rep"
   },
   "navigation": {
     "about": "About",

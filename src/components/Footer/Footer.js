@@ -29,13 +29,19 @@ export default function Footer () {
                             <li className="text-white hover:text-blue-gray-900">
                                 <a href="tel:+57 302 303 1284">
                                     <PhoneIcon className="h-4 mr-2 inline" />
-                                    +57 302 303 1284
+                                    🇺🇸 +1 954 440 5761
+                                </a>
+                            </li>
+                            <li className="text-white hover:text-blue-gray-900">
+                                <a href="tel:+57 302 303 1284">
+                                    <PhoneIcon className="h-4 mr-2 inline" />
+                                    🇨🇴 +57 302 303 1284
                                 </a>
                             </li>
                             <li className="text-white hover:text-blue-gray-900">
                                 <a href="tel:+57 300 642 9191">
                                     <PhoneIcon className="h-4 mr-2 inline" />
-                                    +57 300 642 9191
+                                    🇨🇴 +57 300 642 9191
                                 </a>
                             </li>
                             <li className="text-white hover:text-blue-gray-900">

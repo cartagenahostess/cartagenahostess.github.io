@@ -14,7 +14,7 @@ function Fallback () {
 
 function App () {
   return (
-    <Suspense fallback={ Fallback }>
+    <Suspense fallback={ <Fallback /> }>
       <div className="App">
         <div className="relative overflow-hidden">
           <div className="relative pt-6 bg-emerald-50">
