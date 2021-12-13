@@ -27,7 +27,7 @@ export default function Footer () {
                         <h3 className="text-sm font-semibold text-white tracking-wider uppercase">{ t('contactUs') }</h3>
                         <ul className="mt-12 space-y-4">
                             <li className="text-white hover:text-blue-gray-900">
-                                <a href="tel:+57 302 303 1284">
+                                <a href="tel:+1 954 440 5761">
                                     <PhoneIcon className="h-4 mr-2 inline" />
                                     🇺🇸 +1 954 440 5761
                                 </a>
