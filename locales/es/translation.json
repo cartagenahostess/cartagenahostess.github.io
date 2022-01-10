@@ -1,0 +1,72 @@
+{
+  "mainHeader": {
+    "partOne": "Siéntase seguro y libre de estrés al ir de",
+    "partTwo": "vacaciones",
+    "partThree": "o por",
+    "partFour": "turismo médico",
+    "partFive": "a Cartagena, Colombia"
+  },
+  "mainSubheading": "¿Está interesado en viajar por diversión o por motivos médicos a una ciudad llena de patrimonio colonial? Cartagena Hostess está aquí para ayudarle en cada momento de su viaje.",
+  "contactUs": "Contáctenos",
+  "learnMore": "Descubra Más",
+  "results": "Resultados",
+  "body": "Corporales",
+  "dental": "Dentales",
+  "features": {
+    "title": "Nuestros Servicios",
+    "medicalTourism": "Turismo Médico",
+    "medicalTourismTab": "Turismo Médico",
+    "tourism": "Vacaciones",
+    "tourismTab": "Vacaciones",
+    "medicalTabDesc": "Ahorre dinero sin escatimar calidad. Permítanos encargarnos de sus arreglos de alojamiento y cuidado para que pueda concentrarse en su recuperación y bienestar.",
+    "recreationalTabDesc": "Disfrute de su estadía en una ciudad costera, romántica, colorida y vibrante con la información útil que solo un cartagenero puede brindar.",
+    "trustedPractitioners": "Médicos de Confianza",
+    "trustedPractitionersDesc": "Solo le recomendaremos profesionales de la salud en los que confiamos y con los que hemos trabajado durante años.",
+    "prePostCare": "Atención Pre y Posoperatoria",
+    "prePostCareDesc": "Estamos calificados para brindarle el cuidado que usted requiere antes y después de su intervención. Espere ser tratado con amabilidad y paciencia.",
+    "dentalWork": "Tratamientos Dentales",
+    "dentalWorkDesc": "Prótesis dentales, carillas, diseños de sonrisa ... lo que usted necesite.",
+    "comesticTreatments": "Tratamientos Estéticos",
+    "comesticTreatmentsDesc": "Ofrecemos procedimientos quirúrgicos faciales y corporales realizados por profesionales de confianza.",
+    "aiportTransfers": "Transporte Desde y Hacia el Aeropuerto",
+    "aiportTransfersDesc": "Lo recogeremos en la puerta de llegadas y lo dejaremos en el aeropuerto cuando sea momento de volver a casa. Si prefiere que lo recojan en otro lugar, no dude en avisarnos.",
+    "translation": "Traducción",
+    "translationDesc": "Si no habla español, no hay problema. Ofrecemos servicios de traducción para que pueda comunicarse con los cartageneros o con sus médicos (si es necesario).",
+    "translationForRecreationalTouristsDesc": "Si no habla español, no hay problema. Ofrecemos servicios de traducción para que pueda comunicarse con los cartageneros.",
+    "lodging": "Sugerencias de Alojamiento",
+    "lodgingDesc": "Sepa dónde quedarse y dónde no. Si ya tiene un lugar en mente, no dude en preguntar nuestra opinión.",
+    "apartments": "Apartamentos Amueblados (Desayuno Incluido)",
+    "apartmentsDesc": "Disfrute de desayuno gratis si opta por quedarse en una de nuestras opciones de apartamentos amueblados.",
+    "transportation": "Transporte",
+    "transportationDesc": "Nuestros conductores de confianza lo recogerán y lo llevarán a su destino. No gaste tiempo tratando de usar el transporte público y no sufra por las tarifas exorbitantes de los taxis.",
+    "trips": "Viajes fuera de la ciudad",
+    "tripsDesc": "Ya sea que desee darse un baño de lodo en El Volcán del Totumo o visitar hermosas playas en ciudades costeras cercanas, podemos llevarlo. Avísenos y organizaremos su transporte."
+  },
+  "footer": {
+    "desc": "Facilitamos el turismo médico y por diversión a Cartagena, Colombia.",
+    "madeWith": "Hecho con",
+    "by": "por"
+  },
+  "cta": {
+    "question": "¿Listo para viajar a Cartagena?",
+    "action": "Deje todo listo hoy mismo."
+  },
+  "about": {
+    "title": "Nosotros",
+    "us": "Cartagena Hostess es un proyecto que tiene como objetivo satisfacer las necesidades de los turistas que viajan por diversión o por razones médicas y que desean sentirse seguros y relajados sabiendo que su anfitriona de confianza está allí para guiarlos. Hemos ayudado a varios visitantes a disfrutar de una experiencia agradable por un par de años y ahora esperamos darle la bienvenida a muchos más.",
+    "lisneyDesc": "Conoce a tu anfitriona. Nací y crecí en Cartagena, Colombia. Desde pequeña he sido muy alegre y he tenido el deseo de ayudar a otros. Creo que ese deseo nació al ver a mi madre, quien tuvo que ser padre y madre, llegar a casa muy cansada luego de un día largo de trabajo. Así que poco a poco empecé a sentirme inclinada hacia la rama de la salud, la cual me permitiría brindarle ayuda a muchos. Unos años después me mudé a los Estados Unidos donde realicé mis estudios superiores y me gradué como enfermera. Por fin pude hacer lo que más me gustaba. Sin embargo, la razón por la cual nace Cartagena Hostess es porque tuve que realizarme un procedimiento en el cual me dejaron una cicatriz, y los costos para corregirla eran muy elevados en USA, y además, no conocía nadie que pudiese asesorarme. Hoy que me encuentro en Colombia, un país que brinda hermosos lugares de descanso y que a la vez es la casa de muchos profesionales estéticos que ofrecen tratamientos de la mejor calidad, me siento motivada a ayudar a aquellos que quieran salir de la rutina o hacerse algún cambio físico. ¡Bienvenidos!",
+    "lisneyRole": "Fundadora / CEO",
+    "guillermoDesc": "Soy su conductor de confianza. He estado llevando a Lisney a todas partes desde que regresó a Colombia y ahora deseo poder ayudarle a disfrutar Cartagena al máximo.",
+    "guillermoRole": "Conductor de Confianza",
+    "everlisDesc": "Le daré todos los detalles que necesita para tomar una decisión informada sobre su viaje. Me encantaría resolver sus preguntas y darle sugerencias sobre lo que puede hacer de su viaje una mejor experiencia. ¡Estaré esperando su llamada!",
+    "everlisRole": "Asistente / Servicio al Cliente",
+    "guillermoMontesDesc": "Como Director Científico no solo busco el bienestar de mi paciente, sino también la seguridad y tranquilidad de su familia. Soy Cirujano Plástico miembro de la Sociedad Colombiana de Cirugía Plástica (SCCP) y de la Federación Iberoamericana de Cirugía Plástica (FILACP). Soy Médico Cirujano de la Universidad Nacional, especialista en Cirugía Plástica, Estética y Reconstructiva de la Universidad de Antioquia y Fellow en Cirugía de Mano y Microcirugía en L’institute de la Main (Paris, Francia). Mis estudios y mi práctica profesional de más de 20 años de experiencia en esta especialidad me han capacitado para obtener excelentes resultados.",
+    "guillermoMontesRole": "Cirujano Plástico Aliado"
+  },
+  "navigation": {
+    "about": "Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "testimonials": "Testimonios"
+  }
+}

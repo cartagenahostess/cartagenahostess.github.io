@@ -1,0 +1,72 @@
+{
+  "mainHeader": {
+    "partOne": "Experience safe, stress-free",
+    "partTwo": "recreational",
+    "partThree": "or",
+    "partFour": "medical tourism",
+    "partFive": "in Cartagena, Colombia"
+  },
+  "mainSubheading": "Interested in traveling for fun or for medical reasons to a city full of colonial heritage? Cartagena Hostess is here to help you each step of the way.",
+  "contactUs": "Contact Us",
+  "learnMore": "Learn More",
+  "results": "Results",
+  "body": "Body",
+  "dental": "Dental",
+  "features": {
+    "title": "Our Services",
+    "medicalTourism": "Medical Tourism",
+    "medicalTourismTab": "Medical",
+    "tourism": "Recreational Tourism",
+    "tourismTab": "Recreational",
+    "medicalTabDesc": "Save money without cutting quality. Let us handle your accommodation and care arrangements so you can focus on healing and wellness.",
+    "recreationalTabDesc": "Enjoy staying in a romantic, colorful, vibrant coastal city with the useful insights only a local can provide.",
+    "trustedPractitioners": "Trusted Medical Practitioners",
+    "trustedPractitionersDesc": "We will only refer you to healthcare practitioners that we trust and have worked with for years.",
+    "prePostCare": "Pre & Post-op Care",
+    "prePostCareDesc": "We are qualified to provide you with adequate nursing care. Expect to be treated kindly and patiently.",
+    "dentalWork": "Dental Work",
+    "dentalWorkDesc": "Dental prostheses, veneers, smile design... you name it.",
+    "comesticTreatments": "Cosmetic Treatments",
+    "comesticTreatmentsDesc": "We offer facial and body surgical procedures performed by professionals we trust.",
+    "aiportTransfers": "Airport Pick Up & Drop Off",
+    "aiportTransfersDesc": "We'll pick you up in the Arrivals hall and drop you off at the airport upon departure. If you prefer to be picked up someplace else, feel free to let us know.",
+    "translation": "Translation",
+    "translationDesc": "No Spanish, No Problem. We offer translation services so you can communicate with locals or with your doctors (if need be).",
+    "translationForRecreationalTouristsDesc": "No Spanish, No Problem. We offer translation services so you can communicate with locals.",
+    "lodging": "Lodging Suggestions",
+    "lodgingDesc": "Know where to stay and where not to. If you already have a place in mind, feel free to run it by us.",
+    "apartments": "Furnished Apartments (Breakftast Included)",
+    "apartmentsDesc": "Enjoy free breakfast if you prefer to stay in one of our furnished apartment options.",
+    "transportation": "Transportation",
+    "transportationDesc": "Our trusted drivers will pick you up and take you to your destination. Don't worry about figuring out public transport or about crazy taxi fares.",
+    "trips": "Trips Outside the City",
+    "tripsDesc": "Whether you want to get a mud bath in El Volcán del Totumo or visit beautiful beaches in nearby coastal cities, we can take you there. Just let us know and we'll arrange your transport."
+  },
+  "footer": {
+    "desc": "Making recreational and medical tourism a breeze.",
+    "madeWith": "Made with",
+    "by": "by"
+  },
+  "cta": {
+    "question": "Ready to fly to Cartagena?",
+    "action": "Get everything ready today."
+  },
+  "about": {
+    "title": "About Us",
+    "us": "Cartagena Hostess is a project that aims to fill the needs of recreational and medical tourists who want to feel safe and relaxed knowing their trustworthy hostess is there to guide them. We have been helping visitors enjoy a pleasant experience for a couple of years and now we are looking forward to welcoming many more with outstretched arms.",
+    "lisneyDesc": "Meet your hostess. I was born and raised in Cartagena, Colombia. Since I was little, I've been joyful and I've had the desire to help others. I think that desire was born when I saw my mother, who had to be both a father and mother, come home very tired after a long day at work. So, little by little I began to feel inclined towards healthcare, which would allow me to help many. A few years later, I moved to the United States where I received higher education and graduated as a nurse. I was finally able to do what I liked the most. However, the reason why I decided to start Cartagena Hostess is because I had to undergo a procedure in which I was left with a scar, and the cost to correct it was very high in the USA, and also, I did not know anyone who could advise me. Now that I am in Colombia, a country that offers beautiful places to rest and that at the same time is the home of many esthetic professionals who offer the best quality treatments, I feel motivated to help those who want to get out of the routine or undergo some cosmetic change. Welcome!",
+    "lisneyRole": "Founder / CEO",
+    "guillermoDesc": "I am your trusted driver. I've been driving Lisney everywhere since she got back to Colombia and now I'm looking forward to helping you enjoy Cartagena to the maximum.",
+    "guillermoRole": "Trusted Driver",
+    "everlisDesc": "I'll be giving you all the details you need to make an informed decision about your trip. I'd love to solve your questions and make suggestions about what can make your trip a better experience. I'm looking forward to receiving your call!",
+    "everlisRole": "Assistant / Customer Service Rep",
+    "guillermoMontesDesc": "As a Scientific Director I not only seek the welfare of my patient, but also the safety and tranquility of his family. I am a plastic surgeon member of the Colombian Society of Plastic Surgery (SCCP) and the Iberoamerican Federation of Plastic Surgery (FILACP). I am a Surgeon from La Universidad Nacional, specialist in Plastic, Aesthetic and Reconstructive Surgery at La Universidad de Antioquia and Fellow in Hand Surgery and Microsurgery at L'institute de la Main (Paris, France). My studies and professional practice of more than 20 years of experience in this specialty have enabled me to obtain excellent results.",
+    "guillermoMontesRole": "Allied Plastic Surgeon"
+  },
+  "navigation": {
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "testimonials": "Testimonials"
+  }
+}
