@@ -9,6 +9,9 @@
   "mainSubheading": "Interested in traveling for fun or for medical reasons to a city full of colonial heritage? Cartagena Hostess is here to help you each step of the way.",
   "contactUs": "Contact Us",
   "learnMore": "Learn More",
+  "results": "Results",
+  "body": "Body",
+  "dental": "Dental",
   "features": {
     "title": "Our Services",
     "medicalTourism": "Medical Tourism",
@@ -24,7 +27,7 @@
     "dentalWork": "Dental Work",
     "dentalWorkDesc": "Dental prostheses, veneers, smile design... you name it.",
     "comesticTreatments": "Cosmetic Treatments",
-    "comesticTreatmentsDesc": "'We offer cosmetic surgical procedures such as face-lift done by professionals we trust.'",
+    "comesticTreatmentsDesc": "We offer facial and body surgical procedures performed by professionals we trust.",
     "aiportTransfers": "Airport Pick Up & Drop Off",
     "aiportTransfersDesc": "We'll pick you up in the Arrivals hall and drop you off at the airport upon departure. If you prefer to be picked up someplace else, feel free to let us know.",
     "translation": "Translation",
@@ -56,7 +59,9 @@
     "guillermoDesc": "I am your trusted driver. I've been driving Lisney everywhere since she got back to Colombia and now I'm looking forward to helping you enjoy Cartagena to the maximum.",
     "guillermoRole": "Trusted Driver",
     "everlisDesc": "I'll be giving you all the details you need to make an informed decision about your trip. I'd love to solve your questions and make suggestions about what can make your trip a better experience. I'm looking forward to receiving your call!",
-    "everlisRole": "Assistant / Customer Service Rep"
+    "everlisRole": "Assistant / Customer Service Rep",
+    "guillermoMontesDesc": "As a Scientific Director I not only seek the welfare of my patient, but also the safety and tranquility of his family. I am a plastic surgeon member of the Colombian Society of Plastic Surgery (SCCP) and the Iberoamerican Federation of Plastic Surgery (FILACP). I am a Surgeon from La Universidad Nacional, specialist in Plastic, Aesthetic and Reconstructive Surgery at La Universidad de Antioquia and Fellow in Hand Surgery and Microsurgery at L'institute de la Main (Paris, France). My studies and professional practice of more than 20 years of experience in this specialty have enabled me to obtain excellent results.",
+    "guillermoMontesRole": "Allied Plastic Surgeon"
   },
   "navigation": {
     "about": "About",

@@ -9,6 +9,9 @@
   "mainSubheading": "¿Está interesado en viajar por diversión o por motivos médicos a una ciudad llena de patrimonio colonial? Cartagena Hostess está aquí para ayudarle en cada momento de su viaje.",
   "contactUs": "Contáctenos",
   "learnMore": "Descubra Más",
+  "results": "Resultados",
+  "body": "Corporales",
+  "dental": "Dentales",
   "features": {
     "title": "Nuestros Servicios",
     "medicalTourism": "Turismo Médico",
@@ -24,7 +27,7 @@
     "dentalWork": "Tratamientos Dentales",
     "dentalWorkDesc": "Prótesis dentales, carillas, diseños de sonrisa ... lo que usted necesite.",
     "comesticTreatments": "Tratamientos Estéticos",
-    "comesticTreatmentsDesc": "Ofrecemos procedimientos quirúrgicos cosméticos como el lifting facial realizado por profesionales en los que confiamos.",
+    "comesticTreatmentsDesc": "Ofrecemos procedimientos quirúrgicos faciales y corporales realizados por profesionales de confianza.",
     "aiportTransfers": "Transporte Desde y Hacia el Aeropuerto",
     "aiportTransfersDesc": "Lo recogeremos en la puerta de llegadas y lo dejaremos en el aeropuerto cuando sea momento de volver a casa. Si prefiere que lo recojan en otro lugar, no dude en avisarnos.",
     "translation": "Traducción",
@@ -56,12 +59,14 @@
     "guillermoDesc": "Soy su conductor de confianza. He estado llevando a Lisney a todas partes desde que regresó a Colombia y ahora deseo poder ayudarle a disfrutar Cartagena al máximo.",
     "guillermoRole": "Conductor de Confianza",
     "everlisDesc": "Le daré todos los detalles que necesita para tomar una decisión informada sobre su viaje. Me encantaría resolver sus preguntas y darle sugerencias sobre lo que puede hacer de su viaje una mejor experiencia. ¡Estaré esperando su llamada!",
-    "everlisRole": "Asistente / Servicio al Cliente"
+    "everlisRole": "Asistente / Servicio al Cliente",
+    "guillermoMontesDesc": "Como Director Científico no solo busco el bienestar de mi paciente, sino también la seguridad y tranquilidad de su familia. Soy Cirujano Plástico miembro de la Sociedad Colombiana de Cirugía Plástica (SCCP) y de la Federación Iberoamericana de Cirugía Plástica (FILACP). Soy Médico Cirujano de la Universidad Nacional, especialista en Cirugía Plástica, Estética y Reconstructiva de la Universidad de Antioquia y Fellow en Cirugía de Mano y Microcirugía en L’institute de la Main (Paris, Francia). Mis estudios y mi práctica profesional de más de 20 años de experiencia en esta especialidad me han capacitado para obtener excelentes resultados.",
+    "guillermoMontesRole": "Cirujano Plástico Aliado"
   },
   "navigation": {
     "about": "Nosotros",
     "services": "Servicios",
     "contact": "Contacto",
-    "testimonials": "Testimonials"
+    "testimonials": "Testimonios"
   }
 }

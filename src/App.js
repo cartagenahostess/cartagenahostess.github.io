@@ -6,6 +6,7 @@ import Features from './components/Features';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Results from './components/Results';
 // import Testimonials from './components/Testimonials';
 
 function Fallback () {
@@ -28,6 +29,7 @@ function App () {
         </div>
         <Features />
         <About />
+        <Results />
         <CTA />
         {/* <Testimonials />
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

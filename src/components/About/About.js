@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import LisneyPic from './lisney.png';
 import EverlisPic from './everlis.png';
 import GuillermoPic from './guillermo.png';
+import DrGuillermoPic from './drGuillermo.png';
 
 export default function About () {
   const { t } = useTranslation();
@@ -32,7 +33,15 @@ export default function About () {
       bio:
         t('about.everlisDesc'),
       classNames: 'object-center'
-    }
+    },
+    {
+      name: 'Guillermo Montes',
+      role: t('about.guillermoMontesRole'),
+      image: DrGuillermoPic,
+      bio:
+        t('about.guillermoMontesDesc'),
+      classNames: 'object-top'
+    },
   ];
 
   return (
