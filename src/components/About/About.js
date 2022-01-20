@@ -16,7 +16,6 @@ export default function About () {
       image: LisneyPic,
       bio:
         t('about.lisneyDesc'),
-      classNames: 'object-top'
     },
     {
       name: 'Guillermo Sarmiento Aponte',
@@ -24,7 +23,6 @@ export default function About () {
       image: GuillermoPic,
       bio:
         t('about.guillermoDesc'),
-      classNames: 'object-top'
     },
     {
       name: 'Everlis González Mena',
@@ -32,7 +30,6 @@ export default function About () {
       image: EverlisPic,
       bio:
         t('about.everlisDesc'),
-      classNames: 'object-center'
     },
     {
       name: 'Guillermo Montes',
@@ -40,7 +37,6 @@ export default function About () {
       image: DrGuillermoPic,
       bio:
         t('about.guillermoMontesDesc'),
-      classNames: 'object-top'
     },
   ];
 
@@ -61,8 +57,8 @@ export default function About () {
               { people.map((person) => (
                 <li key={ person.name } className="sm:py-8">
                   <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
-                    <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-                      <img className={ `object-cover shadow-lg rounded-lg ${person.classNames}` } src={ person.image } alt="" />
+                    <div className="aspect-w-3 aspect-h-4 sm:aspect-w-3 sm:aspect-h-4">
+                      <img className="object-cover object-top shadow-lg rounded-lg" src={ person.image } alt="" />
                     </div>
                     <div className="sm:col-span-2">
                       <div className="space-y-4">
