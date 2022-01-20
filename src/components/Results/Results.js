@@ -9,19 +9,29 @@ import dental2 from './dental2.jpeg';
 import dental3 from './dental3.jpeg';
 import dental4 from './dental4.jpeg';
 
+function classNames (...classes) {
+    return classes.filter(Boolean).join(' ');
+}
+
 const bodyResults = [
-    body1, body2, body3, body4,
+    { img: body1 },
+    { img: body2, classes: 'h-96' },
+    { img: body3, classes: 'h-96' },
+    { img: body4 },
 ];
 
 const dentalResults = [
-    dental1, dental2, dental3, dental4
+    { img: dental1 },
+    { img: dental2 },
+    { img: dental3 },
+    { img: dental4 },
 ];
 
 const displayImage = (result) => (
-    <li key={ result }>
-        <div className="space-y-4 h-72">
+    <li key={ result.img }>
+        <div className={ classNames("space-y-4 h-72", result.classes) }>
             <div className="aspect-w-3">
-                <img className="shadow-lg rounded-lg h-72" src={ result } alt="" />
+                <img className={ classNames("shadow-lg rounded-lg h-72", result.classes) } src={ result.img } alt="" />
             </div>
         </div>
     </li>
